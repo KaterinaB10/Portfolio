@@ -1,8 +1,11 @@
-import "./App.css";
-import { Layout } from "./pages/Layout";
-import { Landing } from "./pages/Landing";
-import { ProjectReview } from "./pages/project-review/ProjectReview";
+// React-routing
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Pages
+import { ProjectReview } from "./pages/project-review/ProjectReview";
+import { Landing } from "./pages/Landing";
+import { Layout } from "./pages/Layout";
+// Styles
+import "./App.css";
 
 function App() {
   return (

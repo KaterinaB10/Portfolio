@@ -1,8 +1,17 @@
+import { Outlet } from "react-router-dom";
+
 export function Layout() {
   return (
     <>
-      <h1>K</h1>
-      <p>B</p>
+      <header className="header">
+        <h1>Kateryna</h1>
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer className="footer">
+        <p>footer</p>
+      </footer>
     </>
   );
 }
