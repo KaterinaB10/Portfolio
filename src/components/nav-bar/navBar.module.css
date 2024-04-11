@@ -1,0 +1,11 @@
+nav {
+  height: 3.438em;
+  width: 100%;
+  background-color: beige;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
