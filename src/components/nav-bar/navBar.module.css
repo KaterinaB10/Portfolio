@@ -4,6 +4,13 @@ nav {
   background-color: var(--layout-background);
 }
 
+.navContainer {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .navButtons {
   display: flex;
   align-items: center;

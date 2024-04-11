@@ -5,7 +5,7 @@ import { ThemeSwitcher } from "./theme-switcher/ThemeSwitcher";
 export function NavBar() {
   return (
     <nav>
-      <div>
+      <div className={styles.navContainer}>
         <div className={styles.navButtons}>
           <NavButton title="Home" />
           <NavButton title="About" />
