@@ -1,5 +1,6 @@
 import styles from "./navBar.module.css";
 import { NavButton } from "./NavButton";
+import { ThemeSwitcher } from "./theme-switcher/ThemeSwitcher";
 
 export function NavBar() {
   return (
@@ -12,7 +13,9 @@ export function NavBar() {
           <NavButton title="Contact" />
         </div>
         <div className={styles.navExternalLinks}></div>
-        <div className={styles.themeSwitcher}></div>
+        <div className={styles.themeSwitcher}>
+          <ThemeSwitcher />
+        </div>
       </div>
     </nav>
   );

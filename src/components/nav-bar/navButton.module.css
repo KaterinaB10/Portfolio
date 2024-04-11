@@ -4,4 +4,11 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.navLink:hover {
+  color: var(--accent-color);
+  transition: 0.5s;
 }

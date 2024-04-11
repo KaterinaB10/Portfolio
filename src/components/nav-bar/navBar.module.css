@@ -1,7 +1,7 @@
 nav {
   height: 3.438em;
   width: 100%;
-  background-color: beige;
+  background-color: var(--layout-background);
 }
 
 .navButtons {
