@@ -1,7 +1,10 @@
+import styles from "./landing.module.css";
+import { HeaderSection } from "../components/header-section/HeaderSection";
+
 export function Landing() {
   return (
-    <>
-      <p>landing</p>
-    </>
+    <div className={styles.landingContainer}>
+      <HeaderSection />
+    </div>
   );
 }
