@@ -2,6 +2,8 @@ nav {
   height: 3.438em;
   width: 100%;
   background-color: var(--layout-background);
+  display: flex;
+  align-items: flex-end;
 }
 
 .navContainer {
@@ -9,10 +11,18 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  gap: 2.313em;
 }
 
 .navButtons {
   display: flex;
   align-items: center;
   gap: 29px;
+}
+
+.navExternalLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.813em;
 }

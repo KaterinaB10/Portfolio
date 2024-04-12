@@ -9,6 +9,7 @@ html[data-theme="dark"] {
   --text-color: #f5f1f0;
   --layout-background: #232628;
   --accent-color: #a67751;
+  --link-color: #f5f1f0;
 }
 
 /* Dark theme */
@@ -16,4 +17,5 @@ html[data-theme="light"] {
   --text-color: #232628;
   --layout-background: #f5f1f0;
   --accent-color: #a67751;
+  --link-color: #232628;
 }
