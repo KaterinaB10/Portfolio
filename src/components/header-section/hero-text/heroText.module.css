@@ -1,0 +1,18 @@
+.textContainer {
+  width: 45%;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 3.125rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.textSecondLine {
+  color: #a67751;
+}
+
+p {
+  color: var(--text-color);
+}
