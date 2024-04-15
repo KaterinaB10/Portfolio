@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import styles from "./heroButtons.module.css";
 
 export function HeroButtons() {
   return (
     <div className={styles.buttonsContainer}>
       <button className={styles.buttonLeft}>
-        <a href="">Download CV</a>
+        <Link to="">Download CV</Link>
       </button>
       <button className={styles.buttonRight}>
-        <a href="">Contact Me</a>
+        <Link to="">Contact Me</Link>
       </button>
     </div>
   );

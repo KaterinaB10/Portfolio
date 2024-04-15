@@ -1,0 +1,28 @@
+.buttonsContainer {
+  display: flex;
+  gap: 0.625em;
+  align-items: center;
+}
+
+button {
+  padding: 0.625em 1.25em;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 3px;
+}
+
+.buttonsContainer a {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.buttonRight {
+  background-color: var(--layout-background);
+  border: 1px solid var(--accent-color);
+}
+
+.buttonRight a {
+  color: var(--accent-color);
+}

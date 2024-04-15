@@ -10,6 +10,7 @@ html[data-theme="dark"] {
   --layout-background: #232628;
   --accent-color: #a67751;
   --link-color: #f5f1f0;
+  --text-color-inverted: #232628;
 }
 
 /* Dark theme */
@@ -18,4 +19,5 @@ html[data-theme="light"] {
   --layout-background: #f5f1f0;
   --accent-color: #a67751;
   --link-color: #232628;
+  --text-color-inverted: #f5f1f0;
 }
